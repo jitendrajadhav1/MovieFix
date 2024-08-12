@@ -1,0 +1,49 @@
+.genre-main {
+  /* display: flex;
+    align-items: center;
+    margin: 8px 0 8px 10%;
+    z-index: 10;
+    position: relative; */
+  display: flex;
+  /* align-items: center; */
+  margin: 8px 3% 8px 3%;
+  z-index: 10;
+  position: relative;
+  height: 20vh;
+}
+.genre-main .genre-heading {
+  width: 8%;
+}
+.genre-heading > h2 {
+  font-size: 26px;
+  vertical-align: top;
+  height: 20vh;
+  margin: 0;
+}
+.genre-main .genre-chip {
+  height: 44px;
+  line-height: 44px;
+  /* display: inline; */
+  display: block;
+  width: 100%;
+}
+.genre-main .genre-chip span {
+  background: #484848;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 15px;
+  /* margin-right: 10px; */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  height: 40px;
+  line-height: 30px;
+  margin: 6px;
+}
+
+.genre-main .genre-chip span.selected {
+  background-color: var(--primary-color);
+  color: white;
+}

@@ -1,0 +1,36 @@
+@import "./assets//styles/color.css";
+@import "./assets/styles/global.css";
+
+body {
+  margin: 0;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(45deg, #7c9885, #b5b682);
+}
+
+/* Style for Scrollbar */
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--light-black);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track); 
+}
+
+/* Root Colors  */
+:root {
+  --primary-color: #F0283C; 
+  --dark-black: #121212;
+  --light-black: #242424;
+  --white: #FFFFFF;
+  --secondary-color: #0081FF;
+  --scrollbar-track: #8d8d8d;
+  --light-grey: #858585;
+}

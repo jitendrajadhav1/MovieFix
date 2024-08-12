@@ -1,0 +1,7 @@
+/* Define a root variable for color */
+:root {
+    --primary-color: #F0283C; 
+    --dark-black: #121212;
+    --light-black: #242424;
+    --white: #FFFFFF;
+  }
